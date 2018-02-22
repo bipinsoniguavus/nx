@@ -45,7 +45,16 @@
     "@ngrx/effects": "<%= ngrxVersion %>",
     "@ngrx/router-store": "<%= ngrxVersion %>",
     "@ngrx/store": "<%= ngrxVersion %>",
-    "@ngrx/store-devtools": "4.0.0"
+    "@ngrx/store-devtools": "4.0.0",
+    "@guavus/core": "^4.0.4",
+    "@guavus/styleguide": "^1.0.14",
+    "@kiwik/common": "^3.4.8-1",
+    "@kiwik/shell": "^3.4.8-1",
+    "ag-grid": "^14.2.0",
+    "ag-grid-angular": "^14.2.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "jscomponents": "git+ssh://git@github.com/Guavus/JSComponents.git#dev/KTRS"
   },
   "devDependencies": {
     "@angular/cli": "<%= angularCliVersion %>",
@@ -71,6 +80,7 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",<% } %>
     "typescript": "<%= typescriptVersion %>",
-    "prettier": "<%= prettierVersion %>"
+    "prettier": "<%= prettierVersion %>",
+    "@compodoc/compodoc": "^1.0.5"
   }
 }
